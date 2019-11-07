@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="database">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="enfermedad"/>
+        <xs:element ref="medicamento"/>
+        <xs:element ref="pais"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="enfermedad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="nombre"/>
+        <xs:element ref="edad_media"/>
+        <xs:element ref="hereditaria"/>
+        <xs:element ref="causas"/>
+        <xs:element ref="sintomas"/>
+        <xs:element ref="prevencion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="edad_media" type="xs:integer"/>
+  <xs:element name="hereditaria" type="xs:integer"/>
+  <xs:element name="causas" type="xs:string"/>
+  <xs:element name="sintomas" type="xs:string"/>
+  <xs:element name="prevencion" type="xs:string"/>
+  <xs:element name="medicamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="id"/>
+        <xs:element ref="nombre"/>
+        <xs:element ref="tipo_consumir"/>
+        <xs:element ref="dosis"/>
+        <xs:element ref="precio_aproximado"/>
+        <xs:element ref="autorizado"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipo_consumir" type="xs:string"/>
+  <xs:element name="dosis" type="xs:string"/>
+  <xs:element name="precio_aproximado" type="xs:string"/>
+  <xs:element name="autorizado" type="xs:integer"/>
+  <xs:element name="pais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="nombre"/>
+        <xs:element ref="poblacion"/>
+        <xs:element ref="poblacion_afectada"/>
+        <xs:element ref="continente"/>
+        <xs:element ref="enfermedad_afecta"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="poblacion" type="xs:integer"/>
+  <xs:element name="poblacion_afectada" type="xs:NMTOKEN"/>
+  <xs:element name="continente" type="xs:string"/>
+  <xs:element name="enfermedad_afecta" type="xs:string"/>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="nombre" type="xs:string"/>
+</xs:schema>

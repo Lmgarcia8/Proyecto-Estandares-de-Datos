@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet xmlns="http://www.w3.org/1999/xhtml" type="text/xsl" href="Proyecto.xsl"?>
+<database>
+    <enfermedad>
+        <id>01</id>
+        <nombre>Fiebre amarilla</nombre>
+        <edad_media>30</edad_media>
+        <hereditaria>0</hereditaria>
+        <causas>Virus (Flavivirus) que se transmite por las picaduras de aedes infectados y mosquitos hemógenos</causas>
+        <sintomas>Fiebre, dolor muscular, dolor de cabeza, pérdida de apetito y náuseas o vómitos.</sintomas>
+        <prevencion>Vacunación y control de mosquitos.</prevencion>
+    </enfermedad>
+    
+    <pais>
+        <id>20</id>
+        <nombre>Bolivia</nombre>
+        <poblacion>11050000</poblacion>
+        <poblacion_afectada>2</poblacion_afectada>
+        <continente>América del Sur</continente>
+        <enfermedad_afecta>Fiebre amarilla</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>21</id>
+        <nombre>Perú</nombre>
+        <poblacion>32170000</poblacion>
+        <poblacion_afectada>20</poblacion_afectada>
+        <continente>América del Sur</continente>
+        <enfermedad_afecta>Fiebre amarilla</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>22</id>
+        <nombre>Brasil</nombre>
+        <poblacion>209300000</poblacion>
+        <poblacion_afectada>3240</poblacion_afectada>
+        <continente>América del Sur</continente>
+        <enfermedad_afecta>Fiebre amarilla</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>23</id>
+        <nombre>Ecuador</nombre>
+        <poblacion>16620000</poblacion>
+        <poblacion_afectada>3</poblacion_afectada>
+        <continente>América del Sur</continente>
+        <enfermedad_afecta>Fiebre amarilla</enfermedad_afecta>
+    </pais>
+    
+    <medicamento>
+        <id>2467</id>
+        <nombre>Vivotif</nombre>
+        <tipo_consumir>Cápsulas duras gastrorresistentes</tipo_consumir>
+        <dosis>400 MG 30</dosis>
+        <precio_aproximado>10'46€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+    <medicamento>
+        <id>8732</id>
+        <nombre>Stamaril</nombre>
+        <tipo_consumir>Polvo y disolvente para suspensión inyectable en jeringa precargada</tipo_consumir>
+        <dosis>0,5 ml</dosis>
+        <precio_aproximado>2017,23€</precio_aproximado>
+        <autorizado>0</autorizado>
+    </medicamento>
+    
+    <enfermedad>
+        <id>02</id>
+        <nombre>Meningitis</nombre>
+        <edad_media>34</edad_media>
+        <hereditaria>0</hereditaria>
+        <causas>Varias bacterias pueden causar meningitis. Neisseria meningitidis es la que tiene el potencial de causar grandes epidemias. </causas>
+        <sintomas>Rigidez en el cuello, fiebre alta, sensibilidad a la luz, confusión, dolores de cabeza y vómitos.</sintomas>
+        <prevencion>Vacunación</prevencion>
+    </enfermedad>
+    
+    <pais>
+        <id>30</id>
+        <nombre>Benin</nombre>
+        <poblacion>11180000</poblacion>
+        <poblacion_afectada>758</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Meningitis</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>31</id>
+        <nombre>Burkina Faso</nombre>
+        <poblacion>19190000</poblacion>
+        <poblacion_afectada>5300</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Meningitis</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>32</id>
+        <nombre>Chad</nombre>
+        <poblacion>14900000</poblacion>
+        <poblacion_afectada>2828</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Meningitis</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>33</id>
+        <nombre>Côte d'Ivoire</nombre>
+        <poblacion>24290000</poblacion>
+        <poblacion_afectada>399</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Meningitis</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>34</id>
+        <nombre>Ghana</nombre>
+        <poblacion>28830000</poblacion>
+        <poblacion_afectada>569</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Meningitis</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>35</id>
+        <nombre>Sudán</nombre>
+        <poblacion>40530000</poblacion>
+        <poblacion_afectada>275</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Meningitis</enfermedad_afecta>
+    </pais>
+    
+    <medicamento>
+        <id>3684</id>
+        <nombre>Ceftriaxone</nombre>
+        <tipo_consumir>Oral</tipo_consumir>
+        <dosis>2g</dosis>
+        <precio_aproximado>6'07€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+    <medicamento>
+        <id>0921</id>
+        <nombre>Nimenrix</nombre>
+        <tipo_consumir>Polvo y disolvente para suspensión inyectable en jeringa precargada</tipo_consumir>
+        <dosis>0,5 ml</dosis>
+        <precio_aproximado>54€</precio_aproximado>
+        <autorizado>0</autorizado>
+    </medicamento>
+    
+    <enfermedad>
+        <id>03</id>
+        <nombre> Úlcera Buruli </nombre>
+        <edad_media> 16 </edad_media>
+        <hereditaria> 0 </hereditaria>
+        <causas> Mycobacterium ulcerans</causas>
+        <sintomas>úlceras y heridas (extremidades)</sintomas>
+        <prevencion> Buena limpieza de heridas cutáneas y no contacto de aguas naturales sin protección</prevencion>
+    </enfermedad>
+    
+    <pais>
+        <id>40</id>
+        <nombre>Uganda</nombre>
+        <poblacion>42860000</poblacion>
+        <poblacion_afectada>1000000</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Úlcera de Buruli</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>41</id>
+        <nombre>Australia</nombre>
+        <poblacion>24600000</poblacion>
+        <poblacion_afectada>100000</poblacion_afectada>
+        <continente>Oceanía</continente>
+        <enfermedad_afecta>Úlcera de Buruli</enfermedad_afecta>
+    </pais>
+    
+    <medicamento>
+        <id>7589</id>
+        <nombre>Rifampicina combinada con estreptomicina</nombre>
+        <tipo_consumir>comprimido recubierto</tipo_consumir>
+        <dosis>400mg</dosis>
+        <precio_aproximado>15€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+    <medicamento>
+        <id>6543</id>
+        <nombre>Rifampicina combinada con ciprofloxacino</nombre>
+        <tipo_consumir>comprimido recubierto</tipo_consumir>
+        <dosis>300mg</dosis>
+        <precio_aproximado>20€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+    <medicamento>
+        <id>1027</id>
+        <nombre>Rifampicina combinada con claritromicina</nombre>
+        <tipo_consumir>comprimido recubierto</tipo_consumir>
+        <dosis>300mg</dosis>
+        <precio_aproximado>10€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+    
+    <pais>
+        <id>50</id>
+        <nombre>Nigeria</nombre>
+        <poblacion>190000000</poblacion>
+        <poblacion_afectada>5M</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Malaria</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>51</id>
+        <nombre>Congo</nombre>
+        <poblacion>81000000</poblacion>
+        <poblacion_afectada>2000000</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Malaria</enfermedad_afecta>
+    </pais>
+    <pais>
+        <id>52</id>
+        <nombre>Mozambique</nombre>
+        <poblacion>26000000</poblacion>
+        <poblacion_afectada>4000000</poblacion_afectada>
+        <continente>África</continente>
+        <enfermedad_afecta>Malaria</enfermedad_afecta>
+    </pais>
+    
+    <enfermedad>
+        <id>04</id>
+        <nombre> Malaria </nombre>
+        <edad_media> 40 </edad_media>
+        <hereditaria> 0 </hereditaria>
+        <causas> Mosquito anofeles</causas>
+        <sintomas>fiebre, escalofríos, dolor de cabeza, nauseas y fatiga</sintomas>
+        <prevencion> Antimosquitos DEET y vacunas</prevencion>
+    </enfermedad>
+    
+    <medicamento>
+        <nombre>Malarone</nombre>
+        <tipo_consumir>Tableta</tipo_consumir>
+        <dosis>200mg</dosis>
+        <precio_aproximado>30€</precio_aproximado>
+        <autorizado>0</autorizado>
+    </medicamento>
+    <medicamento>
+        <nombre>Doxiciclina</nombre>
+        <tipo_consumir>Comprimidos recubiertos</tipo_consumir>
+        <dosis>500mg</dosis>
+        <precio_aproximado>20€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+    <medicamento>
+        <nombre>Artemisina</nombre>
+        <tipo_consumir>Oral</tipo_consumir>
+        <dosis>250mL</dosis>
+        <precio_aproximado>50€</precio_aproximado>
+        <autorizado>1</autorizado>
+    </medicamento>
+</database>

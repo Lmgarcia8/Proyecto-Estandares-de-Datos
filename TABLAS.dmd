@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TABLASS" id="FFEC9BF8-A448-E570-16DB-BE0B75CAC249" version="3.5">
+<createdBy>Hp</createdBy>
+<createdTime>2019-10-27 12:03:19 UTC</createdTime>
+<ownerDesignName>TABLAS DATA MODELER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FFEC9BF8-A448-E570-16DB-BE0B75CAC249</designId>
+</OSDM_Design>
